@@ -10,7 +10,7 @@ var helmet = require('helmet');
 
 //connect to mongooseDB:
 var options = { server:{poolSize: 10}};
-//mongoose.connect('mongodb://playground32:Project385473@ds049436.mlab.com:49436/fralik', options);
+//mongoose.connect('mongodb://something02:Some0000@ds049436.mlab.com:49436/fralik', options);
 mongoose.connect('mongodb://localhost/fralik', options);
 
 //express:
